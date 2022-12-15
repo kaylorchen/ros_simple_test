@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <launch>
+
+  <node pkg="test" type="listener_node" name="listener_node" output="screen">
     <env name="ROS_IP" value="192.168.23.10" />
     <env name="ROS_MASTER_URI" value="http://192.168.23.10:11311" />
-  <node pkg="test" type="listener_node" name="listener_node" output="screen">
   </node>
 </launch>
